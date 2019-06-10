@@ -1,0 +1,7 @@
+---
+applications:
+  - name: p2tiger
+    buildpacks: java_buildpack
+    path: target/lol-0.0.1-SNAPSHOT.jar
+    services:
+      - mysql
